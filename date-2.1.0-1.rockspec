@@ -1,32 +1,32 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "date"
-version = "2.0.1-1"
+version = "2.1.0-1"
 
 description = {
-   summary = "Date & Time module for Lua 5.x",
+   summary = "Date & Time module for Lua 5.1/5.2",
    detailed = [[
-      Pure Lua Date & Time module for Lua 5.x featuring date and Time string
+      Pure Lua Date & Time module for Lua 5.1/5.2 featuring date and Time string
       parsing, time addition & subtraction, time span calculation, support for
       ISO 8601 Dates, local time support, strftime-like formatting.
    ]],
    license = "Public Domain",
-   homepage = "http://luaforge.net/projects/date/",
+   homepage = "https://github.com/Tieske/date",
 }
 
 dependencies = {
-   "lua ~> 5.1"
+   "lua >= 5.1, <= 5.2"
 }
 
 -- LuaDist source
 source = {
-  tag = "2.0.1-1",
+  tag = "2.1.0-1",
   url = "git://github.com/LuaDist-testing/date.git"
 }
 -- Original source
 -- source = {
---    url = "http://luaforge.net/frs/download.php/1708/date.zip",
---    dir = ".",
+--    url = "https://github.com/Tieske/date/archive/version_2.1.tar.gz",
+--    dir = "date-version_2.1",
 -- }
 
 build = {
