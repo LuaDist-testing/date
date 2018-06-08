@@ -1,5 +1,3 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "date"
 version = "2.1.0-1"
 
@@ -15,19 +13,13 @@ description = {
 }
 
 dependencies = {
-   "lua >= 5.1, <= 5.2"
+   "lua == 5.1, 5.2"
 }
 
--- LuaDist source
 source = {
-  tag = "2.1.0-1",
-  url = "git://github.com/LuaDist-testing/date.git"
+   url = "https://github.com/Tieske/date/archive/version_2.1.tar.gz",
+   dir = "date-version_2.1",
 }
--- Original source
--- source = {
---    url = "https://github.com/Tieske/date/archive/version_2.1.tar.gz",
---    dir = "date-version_2.1",
--- }
 
 build = {
    type = "builtin",
